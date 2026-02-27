@@ -13,16 +13,16 @@ controller = Controller()
 competition = Competition(controller, brain)
 
 # Drive Motors (4-motor drive)
-front_left_motor = Motor(Ports.PORT1)
-back_left_motor = Motor(Ports.PORT11)
-front_right_motor = Motor(Ports.PORT10, True)
-back_right_motor = Motor(Ports.PORT20, True)
+front_left_motor = Motor(Ports.PORT20)
+back_left_motor = Motor(Ports.PORT19)
+front_right_motor = Motor(Ports.PORT11, True)
+back_right_motor = Motor(Ports.PORT12, True)
 
 # Mechanism Motors
-grabber_motor = Motor(Ports.PORT3)
+grabber_motor = Motor(Ports.PORT1)
 
 # Sensors
-inertial_sensor = Inertial(Ports.PORT7)
+inertial_sensor = Inertial(Ports.PORT10)
 line_sensor = Optical(Ports.PORT2)
 
 # ============================================================================

@@ -123,7 +123,7 @@ The `or heading() < 5` handles the wrap-around.
 ## Hardware Setup
 
 Make sure your inertial sensor is:
-1. Connected to PORT7 (or update the code)
+1. Connected to PORT10 (or update the code)
 2. Mounted securely to the robot frame
 3. Oriented flat (sensor face pointing up)
 

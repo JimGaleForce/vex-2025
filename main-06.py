@@ -5,11 +5,11 @@ from vex import *
 
 # Setup
 brain = Brain()
-front_left_motor = Motor(Ports.PORT1)
-back_left_motor = Motor(Ports.PORT11)
-front_right_motor = Motor(Ports.PORT10, True)
-back_right_motor = Motor(Ports.PORT20, True)
-inertial_sensor = Inertial(Ports.PORT7)  # NEW: Inertial sensor!
+front_left_motor = Motor(Ports.PORT20)
+back_left_motor = Motor(Ports.PORT19)
+front_right_motor = Motor(Ports.PORT11, True)
+back_right_motor = Motor(Ports.PORT12, True)
+inertial_sensor = Inertial(Ports.PORT10)  # NEW: Inertial sensor!
 
 # Constants
 INCHES = DistanceUnits.IN

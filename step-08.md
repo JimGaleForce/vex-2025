@@ -181,7 +181,7 @@ The program shows you the threshold value. Test it:
 - Check mounting height (0.25-0.5 inches)
 - Adjust `BRIGHTNESS_THRESHOLD`
 - Ensure line is dark enough (black tape works best)
-- Check sensor connection (PORT2)
+- Check sensor connection (PORT2 for line sensor)
 
 **Robot loses the line:**
 - `DRIVE_SPEED` might be too fast - try 20 instead of 30

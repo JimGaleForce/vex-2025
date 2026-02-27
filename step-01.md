@@ -34,13 +34,13 @@ This brings in all VEX robot functionality. The `*` means "everything."
 
 ### Motor Setup
 ```python
-front_left_motor = Motor(Ports.PORT1)
-back_left_motor = Motor(Ports.PORT11)
-front_right_motor = Motor(Ports.PORT10, True)
-back_right_motor = Motor(Ports.PORT20, True)
+front_left_motor = Motor(Ports.PORT20)
+back_left_motor = Motor(Ports.PORT19)
+front_right_motor = Motor(Ports.PORT11, True)
+back_right_motor = Motor(Ports.PORT12, True)
 ```
 - `Motor()` creates a motor object
-- `Ports.PORT1` tells it which port on the brain
+- `Ports.PORT20` tells it which port on the brain
 - `True` means reverse the motor direction (right wheels face opposite direction)
 
 ### Constants
@@ -102,7 +102,7 @@ brain = Brain()
 
 ❌ **Wrong port number:**
 ```python
-left_motor = Motor(Ports.PORT5)  # If your motor is on PORT1
+left_motor = Motor(Ports.PORT5)  # If your motor is on PORT20
 ```
 The code won't crash, but the wrong motor will move!
 

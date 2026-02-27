@@ -8,10 +8,10 @@ brain = Brain()
 controller = Controller()
 
 # Drive motors
-front_left_motor = Motor(Ports.PORT1)
-back_left_motor = Motor(Ports.PORT11)
-front_right_motor = Motor(Ports.PORT10, True)
-back_right_motor = Motor(Ports.PORT20, True)
+front_left_motor = Motor(Ports.PORT20)
+back_left_motor = Motor(Ports.PORT19)
+front_right_motor = Motor(Ports.PORT11, True)
+back_right_motor = Motor(Ports.PORT12, True)
 
 # Constants
 FORWARD = DirectionType.FWD

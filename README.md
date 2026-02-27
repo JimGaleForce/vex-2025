@@ -327,12 +327,12 @@ apply_dead_zone(value, 5)       # Apply dead zone to value
 
 | Component | Port | Notes |
 |-----------|------|-------|
-| Front Left Motor | PORT1 | Normal |
-| Back Left Motor | PORT11 | Normal |
-| Front Right Motor | PORT10 | Reversed |
-| Back Right Motor | PORT20 | Reversed |
-| Grabber Motor | PORT3 | Mechanism |
-| Inertial Sensor | PORT7 | Must calibrate |
+| Front Left Motor | PORT20 | Normal |
+| Back Left Motor | PORT19 | Normal |
+| Front Right Motor | PORT11 | Reversed |
+| Back Right Motor | PORT12 | Reversed |
+| Grabber Motor | PORT1 | Mechanism |
+| Inertial Sensor | PORT10 | Must calibrate |
 | Optical Sensor | PORT2 | For line/color |
 
 ### Controller Buttons

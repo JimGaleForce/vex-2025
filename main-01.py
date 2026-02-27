@@ -6,10 +6,10 @@ from vex import *
 
 # SETUP: Create the objects we'll use to control the robot
 brain = Brain()                              # The robot's brain (the V5 controller)
-front_left_motor = Motor(Ports.PORT1)        # Front left wheel motor
-back_left_motor = Motor(Ports.PORT11)        # Back left wheel motor
-front_right_motor = Motor(Ports.PORT10, True)  # Front right wheel motor (True = reversed)
-back_right_motor = Motor(Ports.PORT20, True)   # Back right wheel motor (True = reversed)
+front_left_motor = Motor(Ports.PORT20)        # Front left wheel motor
+back_left_motor = Motor(Ports.PORT19)        # Back left wheel motor
+front_right_motor = Motor(Ports.PORT11, True)  # Front right wheel motor (True = reversed)
+back_right_motor = Motor(Ports.PORT12, True)   # Back right wheel motor (True = reversed)
 
 # CONSTANTS: Values that never change (makes code easier to read)
 INCHES = DistanceUnits.IN

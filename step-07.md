@@ -26,7 +26,7 @@ In this step, we'll focus on a grabber.
 ### Setting Up the Grabber Motor
 
 ```python
-grabber_motor = Motor(Ports.PORT3)
+grabber_motor = Motor(Ports.PORT1)
 ```
 
 Same as drive motors, but connected to a different port!
@@ -138,7 +138,7 @@ This **blocks** until the grabber finishes moving, preventing the driver from sp
 
 ## Try It Out
 
-1. **Hardware:** Connect a motor to PORT3 that controls a grabber
+1. **Hardware:** Connect a motor to PORT1 that controls a grabber
 2. Copy `main-07.py` to VEXcode
 3. Download and run
 4. Drive with left stick
@@ -194,7 +194,7 @@ This **blocks** until the grabber finishes moving, preventing the driver from sp
 ## Common Issues
 
 **Grabber doesn't move:**
-- Check motor connection (PORT3)
+- Check motor connection (PORT1)
 - Check motor power (battery charged?)
 - Check angles (maybe 90° is too much/little?)
 

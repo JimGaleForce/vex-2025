@@ -81,20 +81,20 @@ Each step includes:
 
 ### Updated for 4-Motor Drive
 All code uses 4 motors (2 left, 2 right) as per your requirement:
-- Front Left (PORT1)
-- Back Left (PORT11)
-- Front Right (PORT10, reversed)
-- Back Right (PORT20, reversed)
+- Front Left (PORT20)
+- Back Left (PORT19)
+- Front Right (PORT11, reversed)
+- Back Right (PORT12, reversed)
 
 ## Hardware Configuration
 
 ### Required Ports
-- PORT1: Front Left Motor
-- PORT11: Back Left Motor
-- PORT10: Front Right Motor (reversed)
-- PORT20: Back Right Motor (reversed)
-- PORT3: Grabber Motor
-- PORT7: Inertial Sensor
+- PORT20: Front Left Motor
+- PORT19: Back Left Motor
+- PORT11: Front Right Motor (reversed)
+- PORT12: Back Right Motor (reversed)
+- PORT1: Grabber Motor
+- PORT10: Inertial Sensor
 - PORT2: Optical/Line Sensor
 
 ### Sensors Used

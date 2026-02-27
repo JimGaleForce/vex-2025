@@ -13,13 +13,13 @@ Connect your motors to the V5 Brain using the following ports:
 
 | Component | Port | Notes |
 |-----------|------|-------|
-| Front Left Motor | PORT1 | Normal direction |
-| Back Left Motor | PORT11 | Normal direction |
-| Front Right Motor | PORT10 | Will be reversed in code |
-| Back Right Motor | PORT20 | Will be reversed in code |
+| Front Left Motor | PORT20 | Normal direction |
+| Back Left Motor | PORT19 | Normal direction |
+| Front Right Motor | PORT11 | Will be reversed in code |
+| Back Right Motor | PORT12 | Will be reversed in code |
 | Arm Motor (later) | PORT8 | Added in step 7 |
-| Grabber Motor (later) | PORT3 | Added in step 7 |
-| Inertial Sensor (later) | PORT7 | Added in step 6 |
+| Grabber Motor (later) | PORT1 | Added in step 7 |
+| Inertial Sensor (later) | PORT10 | Added in step 6 |
 | Line Sensor (later) | PORT2 | Added in step 8 |
 
 **Important:** The right motors are reversed because they face the opposite direction when mounted on the robot.
@@ -66,10 +66,10 @@ Test that your motors are connected correctly:
 ```python
 from vex import *
 
-front_left = Motor(Ports.PORT1)
-back_left = Motor(Ports.PORT11)
-front_right = Motor(Ports.PORT10, True)  # True = reversed
-back_right = Motor(Ports.PORT20, True)   # True = reversed
+front_left = Motor(Ports.PORT20)
+back_left = Motor(Ports.PORT19)
+front_right = Motor(Ports.PORT11, True)  # True = reversed
+back_right = Motor(Ports.PORT12, True)   # True = reversed
 
 # Spin all motors forward
 front_left.spin(FORWARD, 50, PERCENT)

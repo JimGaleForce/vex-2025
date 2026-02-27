@@ -8,10 +8,10 @@ brain = Brain()
 controller = Controller()  # The game controller you'll use to drive
 
 # Drive motors - 4 motors total (2 left, 2 right)
-front_left_motor = Motor(Ports.PORT1)
-back_left_motor = Motor(Ports.PORT11)
-front_right_motor = Motor(Ports.PORT10, True)
-back_right_motor = Motor(Ports.PORT20, True)
+front_left_motor = Motor(Ports.PORT20)
+back_left_motor = Motor(Ports.PORT19)
+front_right_motor = Motor(Ports.PORT11, True)
+back_right_motor = Motor(Ports.PORT12, True)
 
 # Constants
 FORWARD = DirectionType.FWD
